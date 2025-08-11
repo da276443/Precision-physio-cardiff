@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #0a6b75;
+}
+.btn {
+  @apply inline-flex items-center justify-center px-5 py-3 rounded-xl font-medium;
+}
+.btn-primary {
+  @apply text-white;
+  background: var(--brand);
+}
+.btn-primary:hover { filter: brightness(1.05); }
+.btn-outline { @apply border border-gray-300; }
+.shadow-soft { box-shadow: 0 20px 60px rgba(0,0,0,0.12); }
