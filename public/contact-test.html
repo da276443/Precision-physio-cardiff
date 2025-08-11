@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <body style="font-family:sans-serif;padding:2rem">
+    <h1>Netlify Contact Test</h1>
+    <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+      <input type="hidden" name="form-name" value="contact">
+      <p><label>Name: <input name="name" required></label></p>
+      <p><label>Email: <input type="email" name="email" required></label></p>
+      <p><label>Message: <textarea name="message" required></textarea></label></p>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
+
